@@ -1,0 +1,32 @@
+POKEMON PINBALL: RUBY & SAPPHIRE - standalone Windows version
+=============================================================
+
+STARTING THE GAME
+1. Double-click PokemonPinball.exe.
+2. The first time, a window asks for your Pokemon Pinball: Ruby & Sapphire
+   ROM file (.gba). Pick it once; the game remembers it from then on.
+   (Or put the .gba file in the same folder as PokemonPinball.exe.)
+
+If Windows shows "Windows protected your PC", click "More info" and then
+"Run anyway". This happens with any program that isn't from a big publisher.
+
+CONTROLS (press F1 in the game to see these again)
+  Left flipper ........ Left Shift, Z or Left arrow
+  Right flipper ....... Right Shift, X or /
+  Launch ball ......... Space (or the right flipper key)
+  Nudge the table ..... A (left) and D (right)
+  Menus ............... arrow keys, X or Space to choose, Esc to go back
+  Pause ............... Enter
+  Fast forward ........ hold Tab
+
+  Gamepads (Xbox, PlayStation, ...): bumpers are the flippers, triggers
+  nudge the table, A/Cross launches and chooses, B/Circle goes back.
+
+The window can be resized or maximised.
+
+SAVES
+High scores and the Pokedex are saved automatically to
+  %APPDATA%\PokePinball\pokepinball.sav
+Copy that file to back them up.
+
+To use a different ROM, delete %APPDATA%\PokePinball\rom_path.txt.

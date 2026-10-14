@@ -1,0 +1,6 @@
+# Game ROMs and saves stay local
+*.gba
+*.sav
+
+# Rust build output
+/target

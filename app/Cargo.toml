@@ -1,0 +1,21 @@
+[package]
+name = "pokepinball"
+version = "0.1.0"
+edition = "2024"
+description = "Standalone Pokémon Pinball: Ruby & Sapphire player (bring your own ROM)"
+publish = false
+
+[dependencies]
+rustboyadvance-core = { path = "../vendor/rustboyadvance/core" }
+rustboyadvance-utils = { path = "../vendor/rustboyadvance/utils" }
+log = "0.4"
+minifb = "0.29.0"
+cpal = "0.18.2"
+rfd = "0.17.2"
+gilrs = "0.11.2"
+dirs = "7.0.0"
+ringbuf = "0.4"
+
+[dev-dependencies]
+png = "0.17"
+env_logger = "0.11"
